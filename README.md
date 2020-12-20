@@ -20,6 +20,7 @@ for this fork, create a folder in your C drive called 'webdrivers' and place the
 <br>
 ## How to use it <br>
 ```
+
 CHROME_DVR_DIR = 'C:\chromedriver_win32\chromedriver.exe'      #>>>enter your chrome driver chromedriver.exe path<br>
 website="https://www.wordpress_or_any_site_url.de/wp-admin"    #>>>Find a website url which has a login page <br>
 username_selector = "#user_login"       #>>>Inspect element to find the Selector of the username ID (if class then .user_login)<br>
@@ -27,4 +28,5 @@ password_selector = "#user_pass"       #>>>Inspect element to find the Selector 
 login_btn_selector = "#wp-submit"     #>>>Inspect element to find the Selector of the submit or login button ID (if class then .wp-submit)<br>
 username = "admin"    #>>>enter username in mostly cases wordpress has admin and other sites has administrator but if you dont know then make same file like passwords_list.txt i.e username_list.txt and use extra loop for it to check username<br>
 pass_list = "passwords_list.txt"    #>>>some comman used password saved on this file you can add your list also <br>
+
 ```
